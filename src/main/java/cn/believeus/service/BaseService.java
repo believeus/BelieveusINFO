@@ -1,8 +1,9 @@
-package com.believeus.service;
+package cn.believeus.service;
 
 import java.util.List;
 import org.springframework.stereotype.Service;
-import com.believeus.dao.BaseDao;
+
+import cn.believeus.dao.BaseDao;
 
 @Service
 public class BaseService implements ISerivce {
