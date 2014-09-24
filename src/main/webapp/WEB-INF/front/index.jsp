@@ -78,11 +78,11 @@ div{border: 1px solid;}
  </script>
  <link type="text/css" href="/static/public/js/UIcomponent/turnImages/css/zzsc.css" rel="stylesheet"></link>
  <ul id="zzsc">
-	<li><a href="#" target="_blank"><img src="/static/public/js/UIcomponent/turnImages/images/img01.jpg"/></a></li>
-	<li><a href="#" target="_blank"><img src="/static/public/js/UIcomponent/turnImages/images/img02.jpg"/></a></li>
-	<li><a href="#" target="_blank"><img src="/static/public/js/UIcomponent/turnImages/images/img03.jpg"/></a></li>
-	<li><a href="#" target="_blank"><img src="/static/public/js/UIcomponent/turnImages/images/img04.jpg"/></a></li>
-	<li><a href="#" target="_blank"><img src="/static/public/js/UIcomponent/turnImages/images/img05.jpg"/></a></li>
+	<li><a href="#" target="_blank"><img src="/static/public/images/believeus.jpg"/></a></li>
+	<li><a href="#" target="_blank"><img src="/static/public/images/spider-project.jpg"/></a></li>
+	<li><a href="#" target="_blank"><img  src="/static/public/images/mydfsServer.jpg"/></a></li>
+	<li><a href="#" target="_blank"><img src="/static/public/images/shop-project.jpg"/></a></li>
+	<li><a href="#" target="_blank"><img src="/static/public/images/operation-project.jpg"/></a></li>
  </ul>
 </div>
 </div>
@@ -91,18 +91,52 @@ div{border: 1px solid;}
       background:url('/static/public/images/menu/nav-bg.png');
       border-radius: 10px;width:1200px;
       line-height:30px;margin-top: -20px;color: white;font-size: 15px;">
-   团队简介
+  Believeus团队简介
 </div>
 <div id="group-member" style="width:1200px;
      height: 300px;
      border-radius: 10px;
      border-color:#44AC4A;margin-top: 5px;">
+    <marquee direction="right"> 
     <div style="width: 200px;border-radius: 10px; height: 150px;border: 1px solid;float: left;margin-top: 8px;">巫其威</div>
     <div style="width: 200px;border-radius: 10px; height: 150px;border: 1px solid;margin-left: 48px;float: left;margin-top: 8px;">吴欢荣</div>
     <div style="width: 200px;border-radius: 10px; height: 150px;border: 1px solid;margin-left: 48px;float: left;margin-top: 8px;">陈春林</div>
     <div style="width: 200px;border-radius: 10px; height: 150px;border: 1px solid;margin-left: 48px;float: left;margin-top: 8px;">朱天雄</div>
     <div style="width: 200px;border-radius: 10px; height: 150px;border: 1px solid;margin-left: 45px;float: left;margin-top: 8px;">巫春连</div>
-	<div style="width: 1200px;border-radius: 10px; height: 150px;border: 1px solid;float: left;margin-top: 8px;"></div>
+	</marquee>
+	<div style="width:1200px;border-radius: 10px; height: 150px;border: 1px solid;float: left;margin-top: 8px;">
+	 <span style="margin-left: 10px;">
+	   Believeus是两个believe与us英文单词的合成词,蕴意:精诚服务,相信我们.
+	 </span>
+	</div>
+</div>
+<div  style="height: 30px; text-align: center; 
+      background:url('/static/public/images/menu/nav-bg.png');
+      border-radius: 10px;width:1200px;
+      line-height:30px;margin-top: 25px;color: white;font-size: 15px;">
+   项目案例
+</div>
+<div id="project-example" style="width:1200px;
+     height: 300px;
+     border-radius: 10px;
+     border-color:#44AC4A;margin-top: 5px;">
+    <div style="width: 550px;border-radius: 10px; height: 150px;border: 1px solid;float: left;">项目案例一</div>
+    <div style="width: 550px;border-radius: 10px; height: 150px;border: 1px solid;margin-left: 600px;margin-top: 8px;">项目案例二</div>
+    <div style="width: 550px;border-radius: 10px; height: 150px;border: 1px solid;float: left;margin-top: 8px;">项目案例三</div>
+    <div style="width: 550px;border-radius: 10px; height: 150px;border: 1px solid;margin-left: 600px;margin-top: 8px;">项目案例四</div>
+</div>
+<div  style="height: 30px; text-align: center; 
+      background:url('/static/public/images/menu/nav-bg.png');
+      border-radius: 10px;width:1200px;
+      line-height:30px;margin-top: 25px;color: white;font-size: 15px;">
+   原创项目
+</div>
+<div id="self-create-project" style="width:1200px;
+     border-radius: 10px;
+     border-color:#44AC4A;margin-top: 5px;">
+    <div style="width: 550px;border-radius: 10px; height: 150px;border: 1px solid;float: left;">项目案例一</div>
+    <div style="width: 550px;height:300px;border-radius: 10px; height: 150px;border: 1px solid;margin-left: 600px;margin-top: 8px;">项目案例二</div>
+    <div style="width: 550px;border-radius: 10px; height: 150px;border: 1px solid;float: left;margin-top: 8px;">项目案例三</div>
 </div>
 </body>
 </html>
