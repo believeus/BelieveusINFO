@@ -55,7 +55,7 @@ div{border: 1px solid;}
 <div  style="position:relative; width: 1200px;">
 <div id="nav">
 	<ul id="navMenu">
-		<li><a class="current" style="width: 129px;" href="#">Believeus工作室</a></li>
+		<li><a class="current" style="width: 129px;" href="/">Believeus工作室</a></li>
 		<li><a href="#" rel='dropmenu1'>业务范围</a></li>
 		<li><a href="#" rel='dropmenu2'>核心成员</a></li>
 		<li><a href="#" rel='dropmenu3'>原创项目</a></li>
@@ -79,9 +79,11 @@ div{border: 1px solid;}
  <link type="text/css" href="/static/public/js/UIcomponent/turnImages/css/zzsc.css" rel="stylesheet"></link>
  <ul id="zzsc">
 	<li><a href="#" target="_blank"><img src="/static/public/images/believeus.jpg"/></a></li>
+	<li><a href="#" target="_blank"><img src="/static/public/images/believeus-broadcas.jpg"/></a></li>
 	<li><a href="#" target="_blank"><img src="/static/public/images/spider-project.jpg"/></a></li>
-	<li><a href="#" target="_blank"><img  src="/static/public/images/mydfsServer.jpg"/></a></li>
-	<li><a href="#" target="_blank"><img src="/static/public/images/shop-project.jpg"/></a></li>
+	<li><a href="#" target="_blank"><img  src="/static/public/images/mydfsServerv2.jpg"/></a></li>
+	<li><a href="#" target="_blank"><img src="/static/public/images/ppsells-project.jpg"/></a></li>
+	<li><a href="#" target="_blank"><img src="/static/public/images/mdaxue-project.jpg"/></a></li>
 	<li><a href="#" target="_blank"><img src="/static/public/images/operation-project.jpg"/></a></li>
  </ul>
 </div>
