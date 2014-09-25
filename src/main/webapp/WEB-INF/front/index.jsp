@@ -95,21 +95,32 @@ div{border: 1px solid;}
       line-height:30px;margin-top: -20px;color: white;font-size: 15px;">
   Believeus团队简介
 </div>
-<div id="group-member" style="width:1200px;
+<!--  background-image: url('/static/public/images/backgroup.jpg');background-repeat: no-repeat -->
+<div id="group-member" style="width:550px;
      height: 300px;
      border-radius: 10px;
-     border-color:#44AC4A;margin-top: 5px;">
-    <marquee direction="right"> 
-    <div style="width: 200px;border-radius: 10px; height: 150px;border: 1px solid;float: left;margin-top: 8px;">巫其威</div>
-    <div style="width: 200px;border-radius: 10px; height: 150px;border: 1px solid;margin-left: 48px;float: left;margin-top: 8px;">吴欢荣</div>
-    <div style="width: 200px;border-radius: 10px; height: 150px;border: 1px solid;margin-left: 48px;float: left;margin-top: 8px;">陈春林</div>
-    <div style="width: 200px;border-radius: 10px; height: 150px;border: 1px solid;margin-left: 48px;float: left;margin-top: 8px;">朱天雄</div>
-    <div style="width: 200px;border-radius: 10px; height: 150px;border: 1px solid;margin-left: 45px;float: left;margin-top: 8px;">巫春连</div>
-	</marquee>
-	<div style="width:1200px;border-radius: 10px; height: 150px;border: 1px solid;float: left;margin-top: 8px;">
-	 <span style="margin-left: 10px;">
-	   Believeus是两个believe与us英文单词的合成词,蕴意:精诚服务,相信我们.
-	 </span>
+     border-color:#44AC4A;
+     margin-top: 5px; ">
+    <div style="width:550px;height:auto;overflow: hidden;float: left;">
+	    <div style="width:550px;height:auto;overflow: hidden;">
+	     <div style="border-radius: 10px;float:left;margin:5px; ">
+	    	<img src="/static/public/images/wuhuanrong-pic.png"/>
+	     </div>
+	     <div style="border-radius: 10px;margin:5px 0 0 5px; ">
+	    	<img src="/static/public/images/wuqiwei-pic.png"/>
+	     </div>
+	    </div>
+	    <div style="width:550px;height:auto;overflow: hidden;">
+	     <div style="border-radius: 10px;margin:5px 0 0 5px;float:left">
+	    	<img src="/static/public/images/wuchunlian-pic.png"/>
+	     </div>
+	     <div style="border-radius: 10px;margin:5px 0 0 5px;float:left ">
+	    	<img src="/static/public/images/wuqiwei-pic.png"/>
+	     </div>
+		</div>
+	</div>
+	<div style="width:650px;height:auto;overflow: hidden;">
+		<img width="650px" height="315px" src="/static/public/images/believeus-summary.png"/>
 	</div>
 </div>
 <div  style="height: 30px; text-align: center; 
