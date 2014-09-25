@@ -119,8 +119,13 @@ div{border: 1px solid;}
 	     </div>
 		</div>
 	</div>
-	<div style="width:650px;height:auto;overflow: hidden;">
-		<img width="650px" height="315px" src="/static/public/images/believeus-summary.png"/>
+	<div style="width:650px;height:315px;border-radius: 10px;overflow: hidden;background-color: #264E8E;">
+		<div style="width: auto;height: auto; margin:20px 20px 0px 20px;">
+		<span style="font-size: 28px;color: white;padding-top: 25px;font-family:'楷体'">&nbsp;&nbsp;&nbsp;Believeus成立于2011年,至今已有三年。我们在这三年中,团队成员在不断的增加,技术力量也不断增强,分工协作逐渐细化,
+			       客户也给予我们较高的肯定。
+		</span>
+		<p><span style="font-size: 28px;color: white;font-family:'楷体'">&nbsp;&nbsp;&nbsp;业务范围：UI设计,网站原型设计,商城,企业,信息等类型网站,Android手机端的APP开发,Liunx服务器配置管理,并免费提供项目案例分析,项目预算等咨询服务。</span></p>
+		</div>
 	</div>
 </div>
 <div  style="height: 30px; text-align: center; 
