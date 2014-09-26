@@ -33,7 +33,6 @@ body{font-family:Arial, Helvetica, sans-serif;font-size:14px;background-color:#f
 .dropMenu li{float:left;width:130px;height:32px;}
 .dropMenu li a{display:block;padding:5px 0 5px 12px;color:#0f335d;}
 .dropMenu a:hover{text-decoration:underline;color:#000;}
-div{border: 1px solid;}
 </style>
 <script>
 	$(function(){
@@ -52,7 +51,7 @@ div{border: 1px solid;}
 		
 	});
 </script>
-<div  style="position:relative; width: 1200px;">
+<div  style="position:relative; width: 90%;">
 <div id="nav">
 	<ul id="navMenu">
 		<li><a class="current" style="width: 129px;" href="/">Believeus工作室</a></li>
@@ -80,11 +79,11 @@ div{border: 1px solid;}
  <ul id="zzsc">
 	<li><a href="#" target="_blank"><img src="/static/public/images/believeus.jpg"/></a></li>
 	<li><a href="#" target="_blank"><img src="/static/public/images/believeus-broadcas.jpg"/></a></li>
+	<li><a href="#" target="_blank"><img src="/static/public/images/operation-project.jpg"/></a></li>
 	<li><a href="#" target="_blank"><img src="/static/public/images/spider-project.jpg"/></a></li>
 	<li><a href="#" target="_blank"><img  src="/static/public/images/mydfsServerv2.jpg"/></a></li>
 	<li><a href="#" target="_blank"><img src="/static/public/images/ppsells-project.jpg"/></a></li>
 	<li><a href="#" target="_blank"><img src="/static/public/images/mdaxue-project.jpg"/></a></li>
-	<li><a href="#" target="_blank"><img src="/static/public/images/operation-project.jpg"/></a></li>
  </ul>
 </div>
 </div>
@@ -101,32 +100,75 @@ div{border: 1px solid;}
      border-radius: 10px;
      border-color:#44AC4A;
      margin-top: 5px; ">
-    <div style="width:550px;height:auto;overflow: hidden;float: left;">
-	    <div style="width:550px;height:auto;overflow: hidden;">
-	     <div style="border-radius: 10px;float:left;margin:5px; ">
+    <div style="width:1200px;height:auto;overflow: hidden;">
+	     <div style="border-radius: 10px;margin:5px 0 0 5px;float:left; ">
+	    	<img src="/static/public/images/wuqiwei-pic.png"/>
+	     </div>
+	     <div style="border-radius: 10px;margin:5px 0 0 5px;float:left; ">
+	    	<img src="/static/public/images/zhutianxiong-pic.png"/>
+	     </div>
+	     <div style="border-radius: 10px;float:left;margin:5px;">
 	    	<img src="/static/public/images/wuhuanrong-pic.png"/>
 	     </div>
-	     <div style="border-radius: 10px;margin:5px 0 0 5px; ">
-	    	<img src="/static/public/images/wuqiwei-pic.png"/>
+	    <div style="width:380px;height:150px;margin-left:820px;margin-top:5px;border-radius:10px;background-color:#264E8E">
+		 <div style="width: auto;height: auto;padding:15px 5px 5px 15px;">
+		   <span style="font-size: 20px;color: white;font-family:'楷体'">
+		     &nbsp;&nbsp;&nbsp;Believeus成立于2011年,这些年我们与客户一起合作,随着他们的产品一起成长。团队成员也在不断的增加,技术实力也在不断增强,
+		          分工协作逐渐细化,客户也给予我们较高的肯定。
+		  </span>
+		</div>
+	</div>
+	<div style="width:1200px;height:auto;overflow: hidden;">
+		 <div style="border-radius: 10px;margin:5px 0 0 0px;float:left;width: 265px;height:150px;overflow: hidden;">
+	    	<img src="/static/public/images/chenchunlin-pic.png"/>
 	     </div>
-	    </div>
-	    <div style="width:550px;height:auto;overflow: hidden;">
-	     <div style="border-radius: 10px;margin:5px 0 0 5px;float:left">
+	     <div style="border-radius: 10px;float:left;margin:5px;width: 265px;height:150px;">
 	    	<img src="/static/public/images/wuchunlian-pic.png"/>
 	     </div>
-	     <div style="border-radius: 10px;margin:5px 0 0 5px;float:left ">
-	    	<img src="/static/public/images/wuqiwei-pic.png"/>
-	     </div>
+	    <div style="width:485px;height:150px;margin:5px;
+	         border-radius:10px;background-color:#264E8E;float:left;">
+		   <div style="width: auto;height: auto;padding:15px 5px 5px 15px;">
+		     <span style="font-size: 25px;color: white;font-family:'楷体'">
+		       &nbsp;&nbsp;业务范围：UI设计,网站原型设计,商城,企业,信息等类型网站,Android手机端的APP开发,Liunx服务器配置管理,并免费提供项目案例分析,项目预算等咨询服务。
+		     </span>
+		   </div>
 		</div>
-	</div>
-	<div style="width:650px;height:315px;border-radius: 10px;overflow: hidden;background-color: #264E8E;">
-		<div style="width: auto;height: auto; margin:20px 20px 0px 20px;">
-		<span style="font-size: 28px;color: white;padding-top: 25px;font-family:'楷体'">&nbsp;&nbsp;&nbsp;Believeus成立于2011年,至今已有三年。我们在这三年中,团队成员在不断的增加,技术力量也不断增强,分工协作逐渐细化,
-			       客户也给予我们较高的肯定。
-		</span>
-		<p><span style="font-size: 28px;color: white;font-family:'楷体'">&nbsp;&nbsp;&nbsp;业务范围：UI设计,网站原型设计,商城,企业,信息等类型网站,Android手机端的APP开发,Liunx服务器配置管理,并免费提供项目案例分析,项目预算等咨询服务。</span></p>
+		<!-- Begin 联系方式抖动 -->
+		<script>
+		$(function(){
+			var shake=function(){
+				var $panel = $("#contact");
+			    var box_left = 70;
+			    $panel.css({'left': box_left,'position':'absolute'});
+			    for(var i=1; 4>=i; i++){
+			        $panel.animate({left:box_left-(40-10*i)},50);
+			        $panel.animate({left:box_left+2*(40-10*i)},50);
+			    }
+			};
+		    var shakeInterval=setInterval(shake,2000);
+		    $("#stop").click(function(){
+		    	clearInterval(shakeInterval);
+		    	$("#stop").text("");
+		    });
+		});
+		</script>
+		<!-- End 联系方式抖动 -->
+		<div id="contact" style="border-radius:10px;width:162px;
+		     height:150px;background-color:#264E8E;
+		     margin-left: 1035px;margin-top: 5px;">
+		  <div style="padding: 5px 5px 5px 10px;" >
+		     <span style="font-size: 18px;color: white;font-family:'楷体'">联系方式:<a href="javascript:void(0);" id="stop" style="color: white;font-size: 16px;cursor: pointer;color: black;">&nbsp;&nbsp;&nbsp;停止!</a></span><br/>
+		     <span style="font-size: 16px;color: white;font-family:'楷体'">吴欢荣</span><br/>
+		     <span style="font-size: 15px;color: white;font-family:'楷体'">&nbsp;电话:15623454830</span><br/>
+		     <span style="font-size: 15px;color: white;font-family:'楷体'">&nbsp;&nbsp;QQ:569009496</span><br/>
+		     <span style="font-size: 16px;color: white;font-family:'楷体'">巫其威</span><br/>
+		     <span style="font-size: 15px;color: white;font-family:'楷体'">&nbsp;电话:15527260395</span><br/>
+		     <span style="font-size: 15px;color: white;font-family:'楷体'">&nbsp;&nbsp;QQ:1058633117</span><br/>
+		 </div>
 		</div>
+	   </div>
 	</div>
+	
 </div>
 <div  style="height: 30px; text-align: center; 
       background:url('/static/public/images/menu/nav-bg.png');
