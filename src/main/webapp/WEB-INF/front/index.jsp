@@ -145,19 +145,18 @@ body{font-family:Arial, Helvetica, sans-serif;font-size:14px;background-color:#f
 			        $panel.animate({left:box_left+2*(40-10*i)},50);
 			    }
 			};
-		    var shakeInterval=setInterval(shake,2000);
-		    $("#stop").click(function(){
+		    var shakeInterval=setInterval(shake,4000);
+		    $("#contact").mousemove(function(){
 		    	clearInterval(shakeInterval);
-		    	$("#stop").text("");
 		    });
 		});
 		</script>
 		<!-- End 联系方式抖动 -->
 		<div id="contact" style="border-radius:10px;width:162px;
 		     height:150px;background-color:#264E8E;
-		     margin-left: 1035px;margin-top: 5px;">
+		     margin-left: 1035px;margin-top: 5px;cursor: pointer;">
 		  <div style="padding: 5px 5px 5px 10px;" >
-		     <span style="font-size: 18px;color: white;font-family:'楷体'">联系方式:<a href="javascript:void(0);" id="stop" style="color: white;font-size: 16px;cursor: pointer;color: black;">&nbsp;&nbsp;&nbsp;停止!</a></span><br/>
+		     <span style="font-size: 18px;color: white;font-family:'楷体'">联系方式:</span><br/>
 		     <span style="font-size: 16px;color: white;font-family:'楷体'">吴欢荣</span><br/>
 		     <span style="font-size: 15px;color: white;font-family:'楷体'">&nbsp;电话:15623454830</span><br/>
 		     <span style="font-size: 15px;color: white;font-family:'楷体'">&nbsp;&nbsp;QQ:569009496</span><br/>
